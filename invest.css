@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+    border-radius: 0px 0px 30px 30px;
+}
+.container{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.swiper{
+    position: relative;
+    justify-content: space-evenly;
+}
+.text{
+    margin-top: 50%;
+    text-align: center;
+}
+h2{
+    font-weight: 800;
+}
+button{
+    background-color: blueviolet;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(174, 104, 239);
+    color: white;
+}
+.plans{
+    display: grid;
+}
+input{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid blue;
+    background-color: aliceblue;
+    width: 100%;
+    cursor: pointer;
+}
+input:hover{
+    background-color: blueviolet;
+    color: white;
+}
+h1, p{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+.num{
+    display: flex;
+    justify-content: space-evenly;
+}
+.border{
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.content{
+  margin-left: 10%;
+}
+h6{
+  font-size: 12px;
+  text-align: center;
+}
+.mockup{
+  margin-left: 10%;
+}
+.footer{
+  text-align: center;
+  margin-top: 5%;
+}
+a{
+  text-decoration: none;
+  font-weight: 600;
+  color: limegreen;
+}
